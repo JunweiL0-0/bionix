@@ -4,6 +4,8 @@ This directory has a few example workflows in bionix along with example
 data. A basic workflow is defined in `call.nix`, and an example of
 applying it to the sample data is in `default.nix`. To build the
 `default.nix` workflow, run ```nix build -I bionix=../ -f .``` from this directory.
+Sometimes you might want to use ```nix --extra-experimental-features nix-command build -I bionix=../ -f .``` if the terminal ask you to do so.
+
 
 ## NextFlow and WDL translations
 
